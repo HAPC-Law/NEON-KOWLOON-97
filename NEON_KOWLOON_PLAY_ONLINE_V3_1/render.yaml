@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: neon-kowloon-97
+    runtime: docker
+    plan: free
+    region: singapore
+    healthCheckPath: /health
+    envVars:
+      - key: ALLOW_GUESTS
+        value: "1"
+      - key: HOST
+        value: "0.0.0.0"
+      - key: PORT
+        value: "10000"
