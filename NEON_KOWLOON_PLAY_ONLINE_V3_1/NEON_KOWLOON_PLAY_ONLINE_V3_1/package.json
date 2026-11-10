@@ -1,0 +1,16 @@
+{
+  "name": "neon-kowloon-97-discord-activity",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@discord/embedded-app-sdk": "^2.5.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}
