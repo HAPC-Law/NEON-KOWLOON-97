@@ -1,7 +1,9 @@
+
 services:
   - type: web
     name: neon-kowloon-97
     runtime: docker
+    rootDir: NEON_KOWLOON_PLAY_ONLINE_V3_1
     plan: free
     region: singapore
     healthCheckPath: /health
